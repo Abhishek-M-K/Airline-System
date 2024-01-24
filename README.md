@@ -14,6 +14,7 @@ Each microservice has it's own set of service and can inter-communicate with oth
 
 ### Search Flights Microservice 
 **[Repository]** : (https://github.com/Abhishek-M-K/Microservice-SearchFlights)
+- Add Cities and Airports for each , there's a One-to-Many association
 
 ### Authentication Microservice 
 **[Repository]** : (https://github.com/Abhishek-M-K/Microservice-Auth)
