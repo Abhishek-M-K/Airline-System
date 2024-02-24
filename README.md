@@ -8,9 +8,13 @@ Tried to keep the codebase as maintainable as possible making it easier for debu
 Each microservice has it's own set of service and can inter-communicate with other microservices.
 
 - Followed manual error handling using clean practices as well as leveraged *http-status-codes* node package for enumerating the HTTP status codes for better error handling .
+- Deployed on AWS EC2 with horizontal autoscaling technique.
 
 ### Current Implementation :
 - Implementing Message-Queues using *amqplib* node package and **RabbitMQ** for better query processing between inter-connected microservices .
+
+### API Gateway 
+**[Repository]** : (https://github.com/Abhishek-M-K/Airline-API-Gateway)
 
 ### Search Flights Microservice 
 **[Repository]** : (https://github.com/Abhishek-M-K/Microservice-SearchFlights)
